@@ -1,0 +1,36 @@
+# Môi trường ảo & cấu hình IDE
+.venv/
+venv/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+
+# Dữ liệu ảnh, video và file nén nặng
+dataset/
+dataset_all/
+dataset_test/
+datasets/
+frames/
+Video/
+videos/
+*.rar
+*.zip
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Kết quả huấn luyện & trọng số model
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+
+# Thư mục lưu trữ nháp & file tạm
+_archive/
+code_for_review.txt
+
+detect/
